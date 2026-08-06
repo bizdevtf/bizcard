@@ -20,6 +20,12 @@ Claude API가 명함을 인식해 바로 연락처 저장 화면이 뜬다.
 3. Claude가 이름·회사·직함·전화·이메일 등을 추출해 `.vcf` 파일로 회신
 4. 휴대폰에서 파일을 열어 "연락처에 저장" 탭
 
+## 부록 — 사원증 NFC 태그 → 출입 이력 자동 기록
+
+사원증을 아이폰에 갖다 대면 구글 폼 "회사 출입 이력"에 현재 날짜·시간이
+자동으로 채워져 제출까지 끝나는 단축어.
+설정 방법: [docs/nfc-access-log-shortcut.md](docs/nfc-access-log-shortcut.md)
+
 ## 구성
 
 - `.claude/skills/bizcard/SKILL.md` — 명함 사진 수신 시 Claude의 처리 규칙
